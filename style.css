@@ -1,0 +1,364 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ul-links{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+
+}
+
+.links{
+    width: 45%;
+}
+
+.links > li{
+    color: #EBF2FA;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0px 2%;
+    cursor: pointer;
+} 
+
+
+.logo{
+    margin: 1% 5%;
+    width: 3%;
+}
+
+.cover-section{
+    background-image: url('https://cdn.wallpapersafari.com/68/15/ADRGef.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.cover-description{
+    
+    padding-top: 12%;
+    padding-left: 5%;
+    width: 40%;
+}
+
+h1{
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.slogan{
+    margin-top: 5%;
+    font-size: 1.4rem;
+    color: #EBF2FA;
+
+    border-radius: 10px;
+}
+
+.btn-watch-intro{
+    font-family: sans-serif;
+    height: 50px;
+    width: 26%;
+    margin-top: 5%;
+    font-weight: bolder;
+    color: #EBF2FA;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #EF5B5B;
+    cursor: pointer;
+}
+
+/* Second Section */
+
+.container-what-is{
+    width: 75%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.2rem;
+    margin-bottom: 1.2%;
+}
+
+.general-description{
+    margin: 2% 11%;
+}
+
+.container-values-cards{
+    margin-top: 8%;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.card-destiny{
+    width: 28%;
+}
+
+.icon-value{
+    background-color: #EF5B5B;
+    font-size: 25px;
+    width: 65px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 10%;
+}
+
+h4{
+    font-size: 20px;
+
+}
+
+/* Third Section */
+.container-is-for{
+    background-color: rgb(233, 236, 236);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-div{
+    display: flex;
+    
+}
+#PC1{
+    width: 45%;
+    margin: 0px 5%;
+}
+
+.is-for-description{
+    margin-top: 5%;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.designed-for-description{
+    text-align: justify;
+    width: 90%;
+}
+
+.second-div{
+    display: flex;
+}
+
+.second-div > .is-for-description{
+    margin-left: 5%;
+}
+
+/* Footer */
+.container-footer{
+    margin: 5% auto;
+    text-align: center;
+    width: 50%;
+    color: black;
+    font-size: 20px;
+}
+
+.me-icon{
+    width: 10%;
+    margin-bottom: 4%;
+}
+
+.stars{
+    margin-top: 5%;
+    color: yellow;
+    
+}
+
+@media screen and (min-width: 427px) and (max-width: 769px){
+    .links{
+        width: 100%;
+    }
+
+    .cover-description{
+        width: 80%;
+        padding: 26% 5%;
+    }
+
+    h1{
+        font-size: 4.5rem !important;
+    }
+
+    .slogan{
+        font-size: 20px;
+    }
+
+    .btn-watch-intro{
+        width: 35%;
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    /* Second section */
+    .container-what-is{
+        width: 96%;
+        margin: 5% auto;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2.2rem !important;
+    }
+
+    .general-description{
+        margin: 2% 8%;
+        font-size: 16px;
+    }
+
+    .container-values-cards{
+        margin: 5% 2%;
+    }
+
+
+    .card-description{
+        font-size: 12px;
+    }
+
+    .icon-value{
+        
+        font-size: 20px;
+        width: 40px;
+        padding: 10px;
+        margin-bottom: 2%;
+    }
+
+    .first-div{
+        display: flex;
+    }
+
+    /*Third Section*/
+
+    #PC1{
+        width: 30%;
+        height: 55%;
+        margin: 10% 5%;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .second-div{
+        display: flex;
+    }
+
+    .btn-second-section{
+        margin: 0px 30%;
+    }
+
+    .container-footer{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .me-icon{
+        width: 16%;
+    }
+
+    .container-footer{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .ul-links{
+        display: none;
+    }
+
+    .cover-description{
+        width: 98%;
+        padding: 26% 5%;
+    }
+
+    h1{
+        font-size: 2.5rem !important;
+    }
+
+    .slogan{
+        font-size: 10px;
+    }
+
+    .btn-watch-intro{
+        width: 35%;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+
+    /* Second section */
+    .container-what-is{
+        width: 96%;
+        margin: 5% auto;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.2rem !important;
+        margin-bottom: 1.2%;
+    }
+
+    .general-description{
+        text-align: justify;
+        margin: 6% 5%;
+        font-size: 12px;
+    }
+
+    .container-values-cards{
+        margin: 8% 2%;
+        display: flow-root;
+        width: 96%;
+    }
+
+    .card-destiny{
+        width: 100% ;
+
+    }
+
+    .card-description{
+        font-size: 10px;
+    }
+
+    .icon-value{
+        background-color: #EF5B5B;
+        font-size: 20px;
+        width: 40px;
+        padding: 10px;
+        margin-bottom: 2%;
+    }
+
+    .first-div{
+        display: block;
+        
+    }
+
+    #PC1{
+        width: 85%;
+        margin: 0px 5%;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .second-div{
+        display: block;
+    }
+
+    .btn-second-section{
+        margin: 0px 30%;
+    }
+
+    .container-footer{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .me-icon{
+        width: 10%;
+    }
+
+    
+}
